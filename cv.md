@@ -10,9 +10,15 @@ I'm 24 years old and I'm begining JavaScript Developer. My goal is to find a job
 * JavaScript Basics
 * Git, GitHub
 * VS Code
+  
+---
+English - Advanced (according to the online test at EFset)
+
+![](./efset.jpg)
+
 ---
 ### Education ###
-* [Roling Scopes School (Stage 0)](https://rs.school/js-stage0)
+* [Roling Scopes School (JavaScript/Front-end. Stage 0)](https://rs.school/js-stage0)
 * [Modern JavaScript Textbook](https://learn.javascript.ru) (In Progress)
 #### Certificates ###
 ![](./certificate.jpg)
@@ -32,3 +38,8 @@ const finalGrade = (exam, projects) => {
     return 0;
   }
 }
+```
+---
+### Contacts ###
+* Email: mikhailstn1@gmail.com
+* Location: Russia, Saint-Petersburg
