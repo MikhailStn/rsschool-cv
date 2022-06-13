@@ -79,6 +79,7 @@ footer {
     color: #ffd000;
     margin-bottom: 0;
     font-size: 30px;
+    
 }
 
 .profile__text {
@@ -111,7 +112,8 @@ footer {
 
 .contacts__list-link {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #dddddd;
+    transition: 0.3s;
 }
 
 .contacts__list-link:hover {
@@ -191,6 +193,7 @@ footer {
     flex-wrap: wrap;
     width: 200px;
     row-gap: 10px;
+    transition: 0.3s;
 }
 
 .portfolio__works-title {
@@ -208,6 +211,7 @@ footer {
     cursor: pointer;
     background-color: rgba(70, 70, 70, 0.11);
     transform: scale(1.05);
+    transition: 0.3s;
 }
 
 .code-example__title {
