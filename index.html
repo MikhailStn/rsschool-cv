@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mikhail Stankevich CV</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/icons/favicon.svg">
+</head>
+<body class="body">
+    <div class="container">
+        <header>
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a class="navigation__link" href="#about">About me</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#contacts">Contacts</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#skills">Skills</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#portfolio">Portfolio</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#code">Code example</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#languages">Languages</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger-icon__wrapper">
+                <div class="hamburger-icon">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>
+            <div class="hamburger__background"></div>
+            <div class="hamburger">
+                <nav class="hamburger__navigation">
+                    <ul class="hamburger__navigation-list">
+                        <li class="hamburger__navigation-item"><a class="hamburger__navigation-link" href="#about">About me</a></li>
+                        <li class="hamburger__navigation-item"><a class="hamburger__navigation-link" href="#contacts">Contacts</a></li>
+                        <li class="hamburger__navigation-item"><a class="hamburger__navigation-link" href="#skills">Skills</a></li>
+                        <li class="hamburger__navigation-item"><a class="hamburger__navigation-link" href="#portfolio">Portfolio</a></li>
+                        <li class="hamburger__navigation-item"><a class="hamburger__navigation-link" href="#code">Code example</a></li>
+                        <li class="hamburger__navigation-item"><a class="hamburger__navigation-link" href="#languages">Languages</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="block-one">
+                <div class="profile" id="about">
+                    <div class="profile__photo">
+                        <img class="pic" src="./assets/images/photo1.jpg" alt="" width="200">
+                    </div>
+                    <h1 class="profile__title">MIKHAIL STANKEVICH</h1>
+                    <p class="profile__text">Junior Frontend Developer</p>
+                </div>
+                <div class="about-me">
+                    <h2 class="about-me__title">ABOUT ME</h2>
+                    <p class="about-me__text">I'm 24 years old and I'm begining JavaScript Developer. My goal is to find a job and to take part in big projects to get experience. I hope that programming will help me to create something useful for people.</p>
+                </div>
+                <div class="contacts" id="contacts">
+                    <h2 class="contacts__title">CONTACT ME</h2>
+                    <ul class="contacts__list">
+                        <li class="contacts__list-item"><a class="contacts__list-link" href="mailto:mikhailstn1@gmail.com">Email: mikhailstn1@gmail.com</a></li>
+                        <li class="contacts__list-item"><a class="contacts__list-link" href="tel:+79697230753">Phone: +79697230753</a></li>
+                        <li class="contacts__list-item">Location: Russia, Saint-Petersburg</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="block-two">
+                <section class="skills" id="skills">
+                    <h2 class="skills__title">SKILLS</h2>
+                    <ul class="skills__list">
+                        <li class="skills__item">HTML5</li>
+                        <li class="skills__item">CSS3</li>
+                        <li class="skills__item">JavaScript (Basics)</li>
+                        <li class="skills__item">Git, GitHub</li>
+                        <li class="skills__item">Figma</li>
+                    </ul>
+                </section>
+                <section class="portfolio" id="portfolio">
+                    <h2 class="portfolio__title">EDUCATIONAL PROJECTS</h2>
+                    <div class="portfolio__works-wrapper">
+                        <div class="portfolio__works">
+                            <a class="portfolio__works-link" href="https://rolling-scopes-school.github.io/mikhailstn-JSFEPRESCHOOL/portfolio/" target="_blank">
+                                <img src="./assets/images/portfolio.png" alt="" width="200">
+                                <span class="portfolio__works-title">Photographer's portfolio</span>
+                                <img class="portfolio__works-icon" src="./assets/icons/html.png" alt="" width="20">
+                                <img class="portfolio__works-icon" src="./assets/icons/css.png" alt="" width="20">
+                                <img class="portfolio__works-icon" src="./assets/icons/js.png" alt="" width="20">
+                            </a>
+                        </div>
+                        <div class="portfolio__works">
+                            <a class="portfolio__works-link" href="https://rolling-scopes-school.github.io/mikhailstn-JSFE2022Q1/shelter/pages/main/index.html" target="_blank">
+                                <img src="./assets/images/shelter.png" alt="" width="200">
+                                <span class="portfolio__works-title">Shelter</span>
+                                <img class="portfolio__works-icon" src="./assets/icons/html.png" alt="" width="20">
+                                <img class="portfolio__works-icon" src="./assets/icons/css.png" alt="" width="20">
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section class="code-example" id="code">
+                    <h2 class="code-example__title">CODE EXAMPLE</h2>
+                    <pre class="code-example__code">const finalGrade = (exam, projects) => {
+    if (exam > 90  || projects > 10) {
+        return 100;
+    } else if (exam > 75 && projects >= 5) {
+        return 90;
+    } else if (exam > 50 && projects >= 2) {
+        return 75;
+    } else {
+        return 0;
+    }
+}</pre>
+                        <p class="code-example__comment">A kata from CodeWars: Create a function 'finalGrade', which calculates the final grade of a student depending on two parameters: a grade for the exam and a number of completed projects.</p>
+                </section>
+                <section class="languages" id="languages">
+                    <h2 class="languages__title">LANGUAGES</h2>
+                    <ul class="languages__list">
+                        <li class="languages__item">Russian - native</li>
+                        <li class="languages__item">English - B2</li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <a href="https://github.com/MikhailStn" target="_blank"><img src="./assets/icons/githublogo.png" alt="" width="100"></a>
+            <a class="year">2022</a>
+            <a href="https://rs.school/js/" target="_blank"><img src="./assets/icons/rs_school_js.svg" alt="" width="100"></a>
+        </footer>
+        <script src="./index.js"></script>
+    </div>
+</body>
+</html>
