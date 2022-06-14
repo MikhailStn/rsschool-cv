@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./assets/icons/favicon.svg">
 </head>
-<body>
+<body class="body">
     <div class="container">
         <header>
             <nav class="navigation">
@@ -21,6 +21,26 @@
                     <li class="navigation__item"><a class="navigation__link" href="#languages">Languages</a></li>
                 </ul>
             </nav>
+            <div class="hamburger-icon__wrapper">
+                <div class="hamburger-icon">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>
+            <div class="hamburger">
+                <div class="hamburger__background"></div>
+                <nav class="hamburger__navigation">
+                    <ul class="hamburger__navigation-list">
+                        <li class="hamburger__navigation-item"><a class="hamburger__navigation-link" href="#about">About me</a></li>
+                        <li class="hamburger__navigation-item"><a class="hamburger__navigation-link" href="#contacts">Contacts</a></li>
+                        <li class="hamburger__navigation-item"><a class="hamburger__navigation-link" href="#skills">Skills</a></li>
+                        <li class="hamburger__navigation-item"><a class="hamburger__navigation-link" href="#portfolio">Portfolio</a></li>
+                        <li class="hamburger__navigation-item"><a class="hamburger__navigation-link" href="#code">Code example</a></li>
+                        <li class="hamburger__navigation-item"><a class="hamburger__navigation-link" href="#languages">Languages</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <main>
             <div class="block-one">
@@ -106,7 +126,7 @@
             <a class="year">2022</a>
             <a href="https://rs.school/js/" target="_blank"><img src="./assets/icons/rs_school_js.svg" alt="" width="100"></a>
         </footer>
-        <div class="block-two"></div>
+        <script src="./index.js"></script>
     </div>
 </body>
 </html>
