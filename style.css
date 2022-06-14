@@ -391,9 +391,8 @@ footer {
         display: flex;
         width: 320px;
         height: 200vh;
-        background-color: #bebebe;
+        background-color: #464646;
         right: -320px;
-        z-index: 10;
         position: fixed;
         transition: 0.5s;
         top: 0;
@@ -409,13 +408,11 @@ footer {
         opacity: 0;
         transition: 0.3s;
         visibility: hidden;
-        z-index: -1;
     }
 
     .hamburger__background.open {
         opacity: 1;
         visibility: visible;
-        z-index: -1;
     }
 
     .hamburger.open {
